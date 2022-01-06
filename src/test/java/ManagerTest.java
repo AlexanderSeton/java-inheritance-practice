@@ -40,4 +40,9 @@ public class ManagerTest {
         assertEquals(0.100, bonus, 0.0);
     }
 
+    @Test
+    public void canGetDeptName() {
+        assertEquals("PSD", manager.getDeptName());
+    }
+
 }

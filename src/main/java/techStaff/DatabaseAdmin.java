@@ -1,4 +1,11 @@
 package techStaff;
 
-public class DatabaseAdmin {
+import staff.Employee;
+
+public class DatabaseAdmin extends Employee {
+
+    public DatabaseAdmin(String name, long insuranceNumber, double salary) {
+        super(name, insuranceNumber, salary);
+    }
+
 }
