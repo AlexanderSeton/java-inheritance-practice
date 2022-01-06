@@ -35,6 +35,12 @@ public class DirectorTest {
     }
 
     @Test
+    public void canGetBonus() {
+        double bonus = director.payBonus();
+        assertEquals(0.200, bonus, 0.0);
+    }
+
+    @Test
     public void canGetDept() {
         assertEquals("PSD", director.getDeptName());
     }
